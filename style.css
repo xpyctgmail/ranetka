@@ -1,7 +1,7 @@
 html,body{
   height:100%;
   margin:0;
-  background:#000;
+  background:#003333;
   font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
@@ -46,14 +46,14 @@ html,body{
   font-weight:600;
   text-decoration:none;
   font-size:18px;
-  box-shadow:0 8px 24px rgba(0,0,0,0.45);
+  box-shadow:0 8px 24px rgba(0,51,51,0.45);
   transition:transform .18s ease,box-shadow .18s ease,opacity .18s ease;
   display:inline-block;
 }
 
 .link-btn:hover{
   transform:translateY(-3px);
-  box-shadow:0 12px 28px rgba(0,0,0,0.55);
+  box-shadow:0 12px 28px rgba(0,51,51,0.55);
 }
 
 .link-btn:active{
@@ -61,7 +61,7 @@ html,body{
 }
 
 .link-btn:focus{
-  outline:3px solid rgba(188,254,60,0.18);
+  outline:3px solid rgba(153,255,0,0.18);
   outline-offset:3px;
 }
 
@@ -75,3 +75,4 @@ html,body{
     padding:14px 24px;
   }
 }
+
